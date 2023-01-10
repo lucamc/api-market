@@ -22,7 +22,7 @@ public class Categoria {
     private Boolean estado;
 
 
-    @OneToMany(mappedBy = "categorias")
+    @OneToMany(mappedBy = "categoria")
     @Getter @Setter
     private List<Producto> productos;
 
